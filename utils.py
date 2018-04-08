@@ -13,6 +13,10 @@ def exit_to_lobby():
     move_mouse_to(screen_width * 0.45, screen_height * 0.55)
     press_LMB()
 
+def press_reconnect():
+    move_mouse_to(screen_width * 0.5, screen_height * 0.55)
+    press_LMB()
+
 def press_button(button):
     pyautogui.press(button)
 

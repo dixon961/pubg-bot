@@ -10,3 +10,5 @@ while(True):
     press_button("f")
     sleep(2)
     exit_to_lobby()
+    sleep(1)
+    press_reconnect()
