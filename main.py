@@ -5,7 +5,6 @@ from utils import *
 print("Initializing bot...")
 sleep(5)
 while(True):
-    print(pyautogui.position())
     image = pyautogui.screenshot()
     if (is_in_airplane(image)):
         print("I'm in airplane")
